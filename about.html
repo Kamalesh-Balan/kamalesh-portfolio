@@ -2,56 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About – Kamalesh Balan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamalesh Balan – UX Designer</title>
   <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header class="navbar">
     <div class="logo"><a href="index.html">Kamalesh Balan</a></div>
     <nav>
       <ul>
-        <li><a href="index.html#home">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="index.html#projects">Projects</a></li>
-        <li><a href="index.html#resume">Resume</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="section">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I'm Kamalesh Balan, a UX designer with a strong foundation in Human-Computer Interaction and Interaction Design.
-        My work centers on designing inclusive, empathetic, and intuitive digital experiences that solve real-world problems.
-        I approach each project with curiosity, a sharp eye for usability, and deep respect for users' lived experiences.
-      </p>
-      <p>
-        Currently pursuing my graduate studies in Information Science, I combine academic rigor with practical experience
-        across research, wireframing, prototyping, and testing. Whether it's auditing an e-commerce interface or
-        prototyping a wearable system, I value clarity, accessibility, and emotional resonance in design.
-      </p>
-      <p>
-        Outside of work, you can find me sketching ideas in a notebook, exploring new research on AI and ethics,
-        or cycling with music in my ears.
-      </p>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I’m Kamalesh — a UX Designer & Researcher</h1>
+      <p>I build human-centered digital experiences that solve real problems with empathy and precision.</p>
+      <a href="projects.html" class="btn">View My Work</a>
+    </div>
+  </section>
 
-      <h3>Tools & Skills</h3>
-      <ul class="resume-list">
-        <li><strong>Design:</strong> Figma, Adobe XD, Sketch</li>
-        <li><strong>Research:</strong> User interviews, usability testing, heuristic evaluations</li>
-        <li><strong>Tech:</strong> HTML, CSS, JavaScript, GitHub</li>
-        <li><strong>Interests:</strong> Wearable computing, ethical AI, healthcare UX</li>
+  <section id="projects" class="section light">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <a href="projects.html#ai-health">
+            <img src="images/ai-healthcare.jpg" alt="AI Healthcare Companion thumbnail" class="project-thumb">
+            <h3>AI Healthcare Companion</h3>
+            <p>An intelligent assistant prototype focused on improving mental wellness through conversational AI.</p>
+          </a>
+        </div>
+        <div class="project-card">
+          <a href="projects.html#biology-research">
+            <img src="images/ai-biology.jpg" alt="AI in Biology Research thumbnail" class="project-thumb">
+            <h3>AI in Biology Research</h3>
+            <p>A research portfolio exploring the impact of machine learning on genetics, genomics, and systems biology.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Have an idea, opportunity, or question? I'd love to hear from you.</p>
+      <ul class="contact-links">
+        <li><a href="mailto:kamalesh@example.com">kamalesh@example.com</a></li>
+        <li><a href="https://www.linkedin.com/in/kamaleshbalan" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/kamaleshbalan" target="_blank">GitHub</a></li>
       </ul>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>© 2025 Kamalesh Balan. Always designing with care.</p>
+      <p>© 2025 Kamalesh Balan. Designed with clarity and care.</p>
     </div>
   </footer>
 </body>
