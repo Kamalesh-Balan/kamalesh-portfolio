@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Projects | Kamalesh Balan</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects – Kamalesh Balan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
 </head>
 <body>
+  <header class="navbar">
+    <div class="logo"><a href="index.html">Kamalesh Balan</a></div>
+    <nav>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="index.html#resume">Resume</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <ul class="navbar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a class="active" href="projects.html">Projects</a></li>
-  </ul>
+  <section class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <p>Explore a selection of work spanning UX research, interaction design, and emerging technology. Each project reflects my approach to solving problems with empathy, clarity, and care.</p>
 
-  <main>
-    <h1>Projects</h1>
+      <div class="project-grid">
+        <div class="project">
+          <img src="project-ai-bio.jpg" alt="AI in Biology Research">
+          <h3>AI in Biology Research</h3>
+          <p>A research initiative exploring how machine learning models can aid in genomics, structural biology, and disease prediction—highlighting ethical and practical implications of AI in life sciences.</p>
+          <a href="ai-biology-case-study.html">View Case Study →</a>
+        </div>
 
-    <h2>Coursework Projects</h2>
-    <ul>
-      <li><strong>Temu E-commerce Redesign</strong> — Conducted UX research, designed wireframes, and built an interactive prototype in Figma. 
-        <a href="#" target="_blank">[View Prototype]</a>
-      </li>
-      <li><strong>Inclusive & Accessible Design</strong> — Designed a wellness wearable for users with mobility challenges.
-        <a href="#" target="_blank">[View Project Summary]</a>
-      </li>
-      <li><strong>Prototyping with Figma</strong> — Created a multi-screen app prototype for a task management app.
-        <a href="#" target="_blank">[Figma Link]</a>
-      </li>
-    </ul>
+        <div class="project">
+          <img src="project2-thumbnail.jpg" alt="Temu UX Audit">
+          <h3>Temu UX Audit</h3>
+          <p>A competitive UX evaluation and redesign proposal to improve search, navigation, and checkout flow.</p>
+          <a href="temu-case-study.html">View Case Study →</a>
+        </div>
 
-    <h2>Professional & Personal Projects</h2>
-    <ul>
-      <li><strong>Skapeart Studios Website</strong> — Designed and prototyped a fully responsive portfolio site for a creative studio.</li>
-      <li><strong>Logo & Branding Collection</strong> — Created multiple logo packages and visual identities for clients in various industries.</li>
-    </ul>
-  </main>
+        <div class="project">
+          <img src="project3-thumbnail.jpg" alt="AI Healthcare Companion">
+          <h3>AI Healthcare Companion</h3>
+          <p>A conceptual AI assistant for chronic illness support, integrating wearables and real-time data to empower users.</p>
+          <a href="ai-healthcare-case-study.html">View Case Study →</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <footer>
+    <div class="container">
+      <p>© 2025 Kamalesh Balan. Always evolving through design.</p>
+    </div>
+  </footer>
 </body>
 </html>
