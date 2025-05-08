@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Home | Kamalesh Balan</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamalesh Balan – UX Designer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
 </head>
 <body>
+  <header class="navbar">
+    <div class="logo"><a href="index.html">Kamalesh Balan</a></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <ul class="navbar">
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="projects.html">Projects</a></li>
-  </ul>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I’m Kamalesh — a UX Designer & Researcher</h1>
+      <p>I build human-centered digital experiences that solve real problems with empathy and precision.</p>
+      <a href="projects.html" class="btn">View My Work</a>
+    </div>
+  </section>
 
-  <main>
-    <h1>Welcome to My Portfolio</h1>
-    <blockquote>
-      “Design is not just what it looks like and feels like. Design is how it works.” – Steve Jobs
-    </blockquote>
+  <section id="projects" class="section light">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <a href="projects.html#ai-health">
+            <img src="images/ai-healthcare.jpg" alt="AI Healthcare Companion thumbnail" class="project-thumb">
+            <h3>AI Healthcare Companion</h3>
+            <p>An intelligent assistant prototype focused on improving mental wellness through conversational AI.</p>
+          </a>
+        </div>
+        <div class="project-card">
+          <a href="projects.html#biology-research">
+            <img src="images/ai-biology.jpg" alt="AI in Biology Research thumbnail" class="project-thumb">
+            <h3>AI in Biology Research</h3>
+            <p>A research portfolio exploring the impact of machine learning on genetics, genomics, and systems biology.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <h2>Professional Philosophy</h2>
-    <p>
-      I believe in design that prioritizes empathy, clarity, and usability. My goal is to create experiences that not only meet user needs but also delight and empower people to interact with technology more intuitively.
-    </p>
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Have an idea, opportunity, or question? I'd love to hear from you.</p>
+      <ul class="contact-links">
+        <li><a href="mailto:kamaleshbaln30@gmail.com">kamaleshbaln30@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/kamaleshbalan" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/kamaleshbalan" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </section>
 
-    <img src="your-photo.jpg" alt="Kamalesh Balan Photo" style="max-width: 300px; margin-top: 20px;">
-  </main>
-
+  <footer>
+    <div class="container">
+      <p>© 2025 Kamalesh Balan. Designed with clarity and care.</p>
+    </div>
+  </footer>
 </body>
 </html>
